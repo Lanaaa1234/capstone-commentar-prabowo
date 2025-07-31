@@ -105,14 +105,19 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 ---
 
 ## 🌟 _7. Recommendations_
-**- Pemanfaatan untuk Strategi Komunikasi Publik**
-Hasil analisis topik dan sentimen dapat dijadikan landasan dalam merancang narasi komunikasi yang lebih terarah serta pemilihan kanal distribusi pesan yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
-**- Pengembangan Sistem Pemantauan Opini Real-Time**
-Implementasi sistem pemantauan secara otomatis, seperti melalui scraping terjadwal dan dashboard interaktif, berpotensi memberikan insight cepat terhadap perubahan persepsi publik. Fitur ini dapat memperingatkan apabila terjadi lonjakan sentimen negatif terhadap topik tertentu.
-**- Optimasi Pipeline dan Validasi Model**
-Proses pembersihan data dapat ditingkatkan dengan integrasi pustaka khusus untuk penanganan emoji dan simbol. Di sisi lain, modularisasi prompt dan penerapan batch processing dinilai dapat mengurangi waktu komputasi. Validasi hasil klasifikasi dengan metode NLP konvensional maupun peninjauan manual secara acak akan meningkatkan keandalan model.
-**- Pengayaan Analisis dan Cakupan Platform**
-Pengembangan lanjutan mencakup analisis temporal untuk melihat dinamika opini dari waktu ke waktu, serta deteksi intensitas sentimen dan emosi publik. Ekspansi ke platform lain seperti Twitter atau Facebook memungkinkan perbandingan persepsi lintas kanal media sosial.
+
+- **Pemanfaatan untuk Strategi Komunikasi Publik**  
+  Hasil analisis topik dan sentimen dapat dijadikan landasan dalam merancang narasi komunikasi yang lebih terarah serta pemilihan kanal distribusi pesan yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
+
+- **Pengembangan Sistem Pemantauan Opini Real-Time**  
+  Implementasi sistem pemantauan secara otomatis, seperti melalui scraping terjadwal dan dashboard interaktif, berpotensi memberikan insight cepat terhadap perubahan persepsi publik. Fitur ini dapat memperingatkan apabila terjadi lonjakan sentimen negatif terhadap topik tertentu.
+
+- **Optimasi Pipeline dan Validasi Model**  
+  Proses pembersihan data dapat ditingkatkan dengan integrasi pustaka khusus untuk penanganan emoji dan simbol. Di sisi lain, modularisasi prompt dan penerapan batch processing dinilai dapat mengurangi waktu komputasi. Validasi hasil klasifikasi dengan metode NLP konvensional maupun peninjauan manual secara acak akan meningkatkan keandalan model.
+
+- **Pengayaan Analisis dan Cakupan Platform**  
+  Pengembangan lanjutan mencakup analisis temporal untuk melihat dinamika opini dari waktu ke waktu, serta deteksi intensitas sentimen dan emosi publik. Ekspansi ke platform lain seperti Twitter atau Facebook memungkinkan perbandingan persepsi lintas kanal media sosial.
+
 
 ---
 
