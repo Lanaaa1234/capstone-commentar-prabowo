@@ -107,7 +107,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 📊 9. Visualisasi Komentar YouTube
+## 📊 Lampiran Visualisasi Komentar YouTube
 
 ### a. Analisis Sentimen
 ![Bar Chart Sentimen](images/sentimen-bar.png)
