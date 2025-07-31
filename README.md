@@ -69,7 +69,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 - **Word Cloud**: dominasi kata “prabowo”, “semoga”, “selamat”, “indonesia”
 
 ---
-## 🤖 _6. AI Support Explanation_  
+## 🤖 _5. AI Support Explanation_  
 - 🧹 **_Preprocessing_**: GPT-3.5-turbo membersihkan & memperbaiki ejaan  
 - 📊 **_Sentiment Analysis_**: klasifikasi komentar ke dalam 3 kategori (positif, netral, negatif) 
 - 🧠 **_Topic Classification_**: pengelompokan ke kode A–F  
@@ -78,7 +78,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 📝 _7. Conclusion_
+## 📝 _6. Conclusions_
 - **Akurasi & Skala Analisis**  
   Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama dengan tingkat konsistensi di atas 95 % pada uji validasi sampel. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia dengan akurasi yang memadai.
 - **Efisiensi Pemahaman Opini Publik**  
@@ -88,7 +88,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 🌟 _8. Recommendations_
+## 🌟 _7. Recommendations_
 1. **Tim Komunikasi & Strategi Politik**  
    - Manfaatkan **insight topik dan sentimen** untuk menyusun pesan yang tepat sasaran.  
    - Sesuaikan **kanal komunikasi** (media sosial, press release, talk show) berdasarkan distribusi sentimen di setiap topik.
