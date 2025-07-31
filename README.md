@@ -1,6 +1,6 @@
 # 🧠 Capstone Project: Analisis Komentar YouTube Pidato Pertama Prabowo Pasca Menang Pilpres 2024
 
-## 📌 1. Project Overview  
+## 📌 _1. Project Overview_  
 **Latar Belakang & Masalah**  
 Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato pertamanya di kanal KOMPASTV memicu ribuan komentar publik. Komentar ini mencerminkan opini, emosi, dan sikap politik masyarakat Indonesia yang penting untuk dianalisis guna memahami persepsi publik.  
 
@@ -23,26 +23,26 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 ---
 
 ## ⚙️ 3. Langkah Utama Analisis  
-1. **Data Collection (Scraping)**  
+1. **_Data Collection (Scraping)_**  
    - YouTube Data API v3 → `komentar_prabowo.csv` (3.596 baris × 4 kolom)  
-2. **Data Cleaning & Emoji Removal**  
+2. **_Data Cleaning & Emoji Removal_**  
    - Regex & Python → `komentar_prabowo_unemot.csv` (3.486×4)  
 3. **Preprocessing Teks dengan LLM**  
    - GPT-3.5-turbo: normalisasi kata, perbaikan ejaan → `komentar_preprocess_gpt35.csv` (3.486×5)  
-4. **Sentiment Analysis (LLM)**  
+4. **_Sentiment Analysis (LLM)_**  
    - Klasifikasi positif/netral/negatif → `komentar_sentimen_gpt35.csv` (3.401×3)  
-5. **Topic Classification (LLM)**  
-   - 6 kategori A–F → `komentar_topik_OKGPT35.csv`  
+5. **_Topic Classification (LLM)_**  
+   - 6 kategori topik yang dikodekan A–F → `komentar_topik_OKGPT35.csv`  
 6. **Visualisasi**  
    - Bar chart, pie chart, grouped bar chart, heatmap, word cloud  
-7. **Summarization by Topic (LLM)**  
+7. **_Summarization by Topic (LLM)_**  
    - Ringkasan naratif 1.000–3.000 karakter per topik → `ringkasan_topik_full.csv`  
-8. **Fun Fact & Word Frequency**  
+8. **_Fun Fact & Word Frequency_**  
    - 20 kata teratas & word cloud  
 
 ---
 
-## 📊 4. Insight & Findings  
+## 📊 _4. Insight & Findings_  
 - **Sentimen**: 56,4% positif, 26,9% negatif, 16,6% netral  
 - **Topik Teratas**:   
   - A: ucapan selamat dan dukungan (1.429 komentar)  
@@ -54,16 +54,16 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 - **Word Cloud**: dominasi kata “prabowo”, “semoga”, “selamat”, “indonesia”
 
 ---
-## 🤖 6. AI Support Explanation  
-- 🧹 **Preprocessing**: GPT-3.5-turbo membersihkan & memperbaiki ejaan  
-- 📊 **Sentiment Analysis**: klasifikasi komentar ke dalam 3 kategori  
-- 🧠 **Topic Classification**: pengelompokan ke kode A–F  
-- 📚 **Summarization**: ringkasan naratif per topik & sentimen  
-- 📈 **Visual Code Generation**: LLM bantu generate kode Python untuk grafik  
+## 🤖 _6. AI Support Explanation_  
+- 🧹 **_Preprocessing_**: GPT-3.5-turbo membersihkan & memperbaiki ejaan  
+- 📊 **_Sentiment Analysis_**: klasifikasi komentar ke dalam 3 kategori (positif, netral, negatif) 
+- 🧠 **_Topic Classification_**: pengelompokan ke kode A–F  
+- 📚 **_Summarization_**: ringkasan naratif per topik & sentimen  
+- 📈 **_Visual Code Generation_**: LLM bantu generate kode Python untuk grafik  
 
 ---
 
-## 📝 Kesimpulan
+## 📝 _7. Conclusion_
 - **Akurasi & Skala Analisis**  
   Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama dengan tingkat konsistensi di atas 95 % pada uji validasi sampel. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia dengan akurasi yang memadai.
 - **Efisiensi Pemahaman Opini Publik**  
@@ -73,7 +73,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 📝 Recommendations
+## 🌟 _8. Recommendations_
 1. **Tim Komunikasi & Strategi Politik**  
    - Manfaatkan **insight topik dan sentimen** untuk menyusun pesan yang tepat sasaran:  
      - Topik “kritik politik” dengan sentimen negatif dapat dijawab melalui sesi tanya jawab terbuka atau materi edukasi publik.  
@@ -109,7 +109,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 📷 7. Visualisasi (Upload ke `images/` & sisipkan)  
+## 📷 9. Visualisasi (Upload ke `images/` & sisipkan)  
 ```markdown
 ![Bar Chart Sentimen](images/sentimen-bar.png)
 ![Pie Chart Sentimen](images/sentimen-pie.png)
