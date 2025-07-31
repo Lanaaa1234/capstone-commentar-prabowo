@@ -51,7 +51,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 6. **Visualisasi**  
    - Bar chart, pie chart, grouped bar chart, heatmap, word cloud  
 7. **_Summarization by Topic (LLM)_**  
-   - Ringkasan naratif 1.000–3.000 karakter per topik → `ringkasan_topik_full.csv`  
+   - Ringkasan naratif 1.000–1.500 karakter per topik → `ringkasan_topik_full.csv`  
 8. **_Fun Fact & Word Frequency_**  
    - 20 kata teratas & word cloud  
 
