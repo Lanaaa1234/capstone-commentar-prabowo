@@ -30,7 +30,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 3. **Preprocessing Teks dengan LLM**  
    - GPT-3.5-turbo: normalisasi kata, perbaikan ejaan → `komentar_preprocess_gpt35.csv` (3.487 baris × 5 kolom)  
 4. **_Sentiment Analysis (LLM)_**  
-   - Klasifikasi positif/netral/negatif → `komentar_sentimen_gpt35.csv` (3.402 baris × 3 kolom)  
+   - Klasifikasi positif/netral/negatif → `komentar_sentimen_gpt35.csv` (3.410 baris × 3 kolom)  
 5. **_Topic Classification (LLM)_**  
    - 6 kategori topik yang dikodekan A–F → `komentar_topik_OKGPT35.csv`  
 6. **Visualisasi**  
