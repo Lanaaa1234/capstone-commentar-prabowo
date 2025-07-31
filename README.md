@@ -1,4 +1,19 @@
-# 🧠 Capstone Project: Analisis Komentar YouTube Pidato Pertama Prabowo Pasca Menang Pilpres 2024
+# 🧠 Capstone Project: Decoding Public Sentiment
+## AI-Driven Analysis Komentar YouTube Pidato Pertama Prabowo Subianto Pasca Menang Pilpres 2024
+### Dengan NLP Berbasis LLM (GPT-3.5-turbo)
+
+---
+
+### 👤 Author & Contact  
+- **Nama**         : Maulana Diki Wicaksono
+- **NIM**          : 23031030001
+- **Universitas**  : Universitas Negeri Yogyakarta  
+- **Email**        : maulanadiki963@gmail.com  
+- **GitHub**       : [github.com/Lanaaa1234](https://github.com/Lanaaa1234)  
+- **LinkedIn**     : [linkedin.com/in/maulana-diki-wicaksono](https://www.linkedin.com/in/maulana-diki-wicaksono/)  
+- **Instagram**:   : [@maulanadikii_24](https://www.instagram.com/maulanadikii_24/)  
+
+---
 
 ## 📌 _1. Project Overview_  
 **Latar Belakang & Masalah**  
