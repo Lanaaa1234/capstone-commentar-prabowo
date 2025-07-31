@@ -75,9 +75,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ## 🌟 _8. Recommendations_
 1. **Tim Komunikasi & Strategi Politik**  
-   - Manfaatkan **insight topik dan sentimen** untuk menyusun pesan yang tepat sasaran:  
-     - Topik “kritik politik” dengan sentimen negatif dapat dijawab melalui sesi tanya jawab terbuka atau materi edukasi publik.  
-     - Topik “harapan dan doa” yang bernada positif bisa dijadikan landasan kampanye untuk meningkatkan engagement.  
+   - Manfaatkan **insight topik dan sentimen** untuk menyusun pesan yang tepat sasaran.  
    - Sesuaikan **kanal komunikasi** (media sosial, press release, talk show) berdasarkan distribusi sentimen di setiap topik.
 2. **Peneliti & Media**  
    - Implementasikan pipeline **real-time monitoring**:  
