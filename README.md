@@ -79,12 +79,28 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 ---
 
 ## 📝 _6. Conclusions_
-- **Akurasi & Skala Analisis**  
-  Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia.
-- **Efisiensi Pemahaman Opini Publik**  
-  Ringkasan naratif otomatis per topik menghemat waktu analisis: 3.401 komentar tersaring menjadi 6 laporan ringkas (masing-masing 1.000–3.000 karakter) yang mencakup sentimen positif, netral, dan negatif, memungkinkan stakeholder langsung memahami isu utama tanpa membaca komentar satu per satu.
-- **Keterbatasan & Peluang**  
-  Meski hasilnya kuat, proses preprocessing dan summarization masih memerlukan 40–60 menit setiap running sel dan sensitif terhadap kualitas prompt. Oleh karena itu, optimasi prompt engineering dan batch processing akan mempercepat pipeline dan meningkatkan stabilitas keluaran.
+## 🌟 Rekomendasi Pengembangan
+
+1. **Pemanfaatan untuk Strategi Komunikasi Publik**  
+   Analisis topik dan sentimen dapat dimanfaatkan untuk merancang pesan komunikasi yang lebih terarah dan memilih kanal distribusi yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
+
+2. **Pengembangan Sistem Pemantauan Opini Real-Time**  
+   Dapat dipertimbangkan integrasi sistem pemantauan otomatis berbasis scraping berkala dan dashboard interaktif (misalnya menggunakan Streamlit atau Plotly Dash) untuk:
+   - Mendeteksi perubahan tren sentimen dan topik secara real-time  
+   - Menghasilkan notifikasi ketika terjadi lonjakan komentar negatif pada isu tertentu
+
+3. **Optimasi Pipeline dan Validasi Model**  
+   - Tingkatkan akurasi pembersihan teks dengan penggunaan pustaka khusus (mis. `emoji`, `demojize`)
+   - Modularisasi prompt dan penerapan batch processing untuk efisiensi waktu komputasi
+   - Lakukan validasi hasil klasifikasi dengan pendekatan:
+     - NLP tradisional (KNN, Naïve Bayes)
+     - Verifikasi manual pada sampel data acak
+
+4. **Pengayaan Analisis dan Ekspansi Cakupan**  
+   - Visualisasikan dinamika sentimen dan topik dari waktu ke waktu (analisis temporal)
+   - Tambahkan analisis emosi publik (senang, marah, sedih) menggunakan model lanjutan
+   - Perluas cakupan data ke platform lain (Twitter, Facebook) untuk analisis lintas kanal
+
 
 ---
 
