@@ -1,5 +1,5 @@
 # 🧠 Capstone Project: Decoding Public Sentiment
-## AI-Driven Analysis Komentar YouTube Pidato Pertama Prabowo Subianto Pasca Menang Pilpres 2024
+## AI-Driven Analysis Komentar YouTube Pidato Pertama Prabowo Subianto Pasca Menang Pilpres Indonesia Tahun 2024
 ### Dengan NLP Berbasis LLM (GPT-3.5-turbo)
 
 ---
