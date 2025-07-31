@@ -20,10 +20,10 @@
 Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato pertamanya di kanal youtube KOMPASTV memicu ribuan komentar publik. Komentar ini mencerminkan opini, emosi, dan sikap politik masyarakat Indonesia yang penting untuk dianalisis guna memahami persepsi publik.  
 
 **Tujuan**  
-- Mengukur distribusi **sentimen** (positif, netral, negatif)  
-- Mengidentifikasi **topik** pembahasan utama dalam komentar  
-- Menyusun **ringkasan naratif** opini publik per topik  
-- Memberikan **rekomendasi** berbasis data untuk stakeholder  
+- Mengolah komentar YouTube pidato Prabowo Subianto secara otomatis untuk **memahami opini publik**.
+- Mengidentifikasi **sentimen** (positif, netral, negatif) dan mengelompokkan **topik pembahasan** dari komentar publik.
+- Menyusun **ringkasan naratif** per topik pembahasan.
+- Mendemonstrasikan peran **AI (GPT-3.5-turbo)** dalam menangani data teks bahasa Indonesia berskala besar secara efisien. 
 
 ---
 
@@ -82,43 +82,21 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 - **Akurasi & Skala Analisis**  
   Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia.
 - **Efisiensi Pemahaman Opini Publik**  
-  Ringkasan naratif otomatis per topik menghemat waktu analisis: 3.401 komentar tersaring menjadi 6 laporan ringkas (masing-masing 1.000–3.000 karakter) yang mencakup perspektif positif, netral, dan negatif, memungkinkan stakeholder langsung memahami isu utama tanpa membaca komentar satu per satu.
+  Ringkasan naratif otomatis per topik menghemat waktu analisis: 3.401 komentar tersaring menjadi 6 laporan ringkas (masing-masing 1.000–3.000 karakter) yang mencakup sentimen positif, netral, dan negatif, memungkinkan stakeholder langsung memahami isu utama tanpa membaca komentar satu per satu.
 - **Keterbatasan & Peluang**  
   Meski hasilnya kuat, proses preprocessing dan summarization masih memerlukan 40–60 menit setiap running sel dan sensitif terhadap kualitas prompt. Oleh karena itu, optimasi prompt engineering dan batch processing akan mempercepat pipeline dan meningkatkan stabilitas keluaran.
 
 ---
 
 ## 🌟 _7. Recommendations_
-1. **Tim Komunikasi & Strategi Politik**  
-   - Manfaatkan **insight topik dan sentimen** untuk menyusun pesan yang tepat sasaran.  
-   - Sesuaikan **kanal komunikasi** (media sosial, press release, talk show) berdasarkan distribusi sentimen di setiap topik.
-2. **Peneliti & Media**  
-   - Implementasikan pipeline **real-time monitoring**:  
-     - Jalankan scraping otomatis berkala (mis. via Cloud Function) untuk mendeteksi perubahan tren sentimen/topik.  
-     - Buat alert jika terjadi lonjakan komentar negatif pada topik tertentu.  
-   - Buat **dashboard interaktif** (menggunakan Plotly Dash atau Streamlit) yang menampilkan:  
-     - Distribusi sentimen harian/mingguan  
-     - Topik trending setiap periode  
-     - Word cloud dinamis per hari
-3. **Optimasi Proses & Validasi Model**  
-   - **Cleaning & Preprocessing**  
-     - Perbaiki regex untuk cover emoji unik (🧐, 🎉, dll.) dan simbol khusus yang belum terdeteksi.  
-     - Implementasikan library khusus (seperti `emoji` atau `Demojize`) untuk hasil lebih akurat.  
-   - **Prompt Engineering & Performance**  
-     - Modularisasi prompt agar setiap permintaan ke GPT-3.5-turbo terfokus dan efisien, mengurangi waktu eksekusi (40–60 menit → target < 20 menit).  
-     - Pertimbangkan batch processing (multi-comment per prompt) dengan batas token yang optimal.  
-   - **Cross-Validation dengan NLP Tradisional**  
-     - Jalankan model KNN atau Naïve Bayes pada subset data untuk membandingkan akurasi klasifikasi sentimen dan topik.  
-     - Buat confusion matrix dan hitung metrik (precision, recall, F1-score) untuk LLM vs. model klasik.  
-   - **Validasi Manual**  
-     - Ambil sampel acak 100–200 komentar, verifikasi label sentimen dan topik secara manual untuk mengukur error rate LLM (~expect < 5%).
-4. **Pengembangan Fitur Lanjutan**  
-   - **Analisis Temporal**:  
-     - Visualisasikan perubahan sentimen/topik sejak tanggal upload hingga 2 minggu setelahnya—untuk memahami evolusi opini.  
-   - **Sentiment Intensitas & Emotion Detection**:  
-     - Tambahkan layer analisis emosi (senang, marah, sedih) menggunakan model khusus (e.g., `transformers` fine-tuned).  
-   - **Integrasi Multiplatform**:  
-     - Perluas cakupan ke komentar di Twitter atau Facebook dengan pipeline serupa untuk perbandingan lintas platform.
+**- Pemanfaatan untuk Strategi Komunikasi Publik**
+Hasil analisis topik dan sentimen dapat dijadikan landasan dalam merancang narasi komunikasi yang lebih terarah serta pemilihan kanal distribusi pesan yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
+**- Pengembangan Sistem Pemantauan Opini Real-Time**
+Implementasi sistem pemantauan secara otomatis, seperti melalui scraping terjadwal dan dashboard interaktif, berpotensi memberikan insight cepat terhadap perubahan persepsi publik. Fitur ini dapat memperingatkan apabila terjadi lonjakan sentimen negatif terhadap topik tertentu.
+**- Optimasi Pipeline dan Validasi Model**
+Proses pembersihan data dapat ditingkatkan dengan integrasi pustaka khusus untuk penanganan emoji dan simbol. Di sisi lain, modularisasi prompt dan penerapan batch processing dinilai dapat mengurangi waktu komputasi. Validasi hasil klasifikasi dengan metode NLP konvensional maupun peninjauan manual secara acak akan meningkatkan keandalan model.
+**- Pengayaan Analisis dan Cakupan Platform**
+Pengembangan lanjutan mencakup analisis temporal untuk melihat dinamika opini dari waktu ke waktu, serta deteksi intensitas sentimen dan emosi publik. Ekspansi ke platform lain seperti Twitter atau Facebook memungkinkan perbandingan persepsi lintas kanal media sosial.
 
 ---
 
