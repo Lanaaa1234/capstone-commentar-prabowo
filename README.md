@@ -109,11 +109,17 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 📷 9. Visualisasi (Upload ke `images/` & sisipkan)  
-```markdown
+## 📊 9. Visualisasi Komentar YouTube
+
+### a. Analisis Sentimen
 ![Bar Chart Sentimen](images/sentimen-bar.png)
 ![Pie Chart Sentimen](images/sentimen-pie.png)
-![Grouped Bar Topic–Sentiment](images/grouped-bar-topic.png)
-![Heatmap Topic–Sentiment](images/heatmap-topic.png)
-![Top 20 Words](images/top20-words.png)
-![Word Cloud](images/wordcloud.png)
+
+### b. Distribusi Topik dan Sentimen
+![Grouped Bar Chart](images/grouped-bar-topic.png)
+![Heatmap Topik](images/heatmap-topic.png)
+
+### c. Analisis Kata
+![Top 20 Most Common Words](images/top20-words.png)
+![Word Cloud of Comments](images/wordcloud.png)
+
