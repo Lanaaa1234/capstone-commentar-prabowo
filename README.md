@@ -79,7 +79,19 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 ---
 
 ## 📝 _6. Conclusions_
-## 🌟 Rekomendasi Pengembangan
+
+- **Efektivitas Model LLM dalam Analisis Komentar Publik**  
+  Proyek ini menunjukkan bahwa GPT-3.5-turbo mampu menangani ribuan komentar dalam Bahasa Indonesia dengan konsistensi klasifikasi yang tinggi. Sentimen dan topik berhasil dipetakan dari lebih dari 3.400 komentar yang tersebar dalam enam kategori utama.
+
+- **Efisiensi dalam Merangkum Opini Publik**  
+  Dengan pendekatan berbasis LLM, komentar publik yang sangat masif dapat disarikan menjadi ringkasan naratif per topik dalam rentang 1.000–3.000 karakter. Hal ini memungkinkan stakeholder untuk memahami persepsi masyarakat tanpa harus membaca komentar satu per satu.
+
+- **Keterbatasan Teknis dan Peluang Pengembangan**  
+  Proses preprocessing dan summarization masih membutuhkan waktu eksekusi cukup lama (±40–60 menit per batch) dan sensitif terhadap kualitas prompt. Hal ini membuka ruang pengembangan pada aspek optimasi prompt engineering, batching, serta integrasi metode validasi manual dan tradisional untuk memperkuat akurasi hasil.
+
+---
+
+## 🌟 _7. Recommendations_
 
 1. **Pemanfaatan untuk Strategi Komunikasi Publik**  
    Analisis topik dan sentimen dapat dimanfaatkan untuk merancang pesan komunikasi yang lebih terarah dan memilih kanal distribusi yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
@@ -104,22 +116,6 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ---
 
-## 🌟 _7. Recommendations_
-
-- **Pemanfaatan untuk Strategi Komunikasi Publik**  
-  Hasil analisis topik dan sentimen dapat dijadikan landasan dalam merancang narasi komunikasi yang lebih terarah serta pemilihan kanal distribusi pesan yang sesuai, berdasarkan persebaran sentimen publik terhadap isu tertentu.
-
-- **Pengembangan Sistem Pemantauan Opini Real-Time**  
-  Implementasi sistem pemantauan secara otomatis, seperti melalui scraping terjadwal dan dashboard interaktif, berpotensi memberikan insight cepat terhadap perubahan persepsi publik. Fitur ini dapat memperingatkan apabila terjadi lonjakan sentimen negatif terhadap topik tertentu.
-
-- **Optimasi Pipeline dan Validasi Model**  
-  Proses pembersihan data dapat ditingkatkan dengan integrasi pustaka khusus untuk penanganan emoji dan simbol. Di sisi lain, modularisasi prompt dan penerapan batch processing dinilai dapat mengurangi waktu komputasi. Validasi hasil klasifikasi dengan metode NLP konvensional maupun peninjauan manual secara acak akan meningkatkan keandalan model.
-
-- **Pengayaan Analisis dan Cakupan Platform**  
-  Pengembangan lanjutan mencakup analisis temporal untuk melihat dinamika opini dari waktu ke waktu, serta deteksi intensitas sentimen dan emosi publik. Ekspansi ke platform lain seperti Twitter atau Facebook memungkinkan perbandingan persepsi lintas kanal media sosial.
-
-
----
 
 ## 📊 Lampiran Visualisasi Komentar YouTube
 
