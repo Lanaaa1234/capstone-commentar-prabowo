@@ -84,7 +84,7 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
   Proyek ini menunjukkan bahwa GPT-3.5-turbo mampu menangani ribuan komentar dalam Bahasa Indonesia dengan konsistensi klasifikasi yang tinggi. Sentimen dan topik berhasil dipetakan dari lebih dari 3.400 komentar yang tersebar dalam enam kategori utama.
 
 - **Efisiensi dalam Merangkum Opini Publik**  
-  Dengan pendekatan berbasis LLM, komentar publik yang sangat masif dapat disarikan menjadi ringkasan naratif per topik dalam rentang 1.000–3.000 karakter. Hal ini memungkinkan stakeholder untuk memahami persepsi masyarakat tanpa harus membaca komentar satu per satu.
+  Dengan pendekatan berbasis LLM, komentar publik yang sangat masif dapat disarikan menjadi ringkasan naratif per topik dalam rentang 1.000–1.500 karakter. Hal ini memungkinkan stakeholder untuk memahami persepsi masyarakat tanpa harus membaca komentar satu per satu.
 
 - **Keterbatasan Teknis dan Peluang Pengembangan**  
   Proses preprocessing dan summarization masih membutuhkan waktu eksekusi cukup lama (±40–60 menit per batch) dan sensitif terhadap kualitas prompt. Hal ini membuka ruang pengembangan pada aspek optimasi prompt engineering, batching, serta integrasi metode validasi manual dan tradisional untuk memperkuat akurasi hasil.
