@@ -30,14 +30,14 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 ## 🔗 2. Notebook & Dataset  
 - 📒 **Google Colab Notebook**:  
   https://colab.research.google.com/drive/1-cFq7F3w-H_aA-5pnUkAiZUd_xAV-F16?usp=sharing  
-- 📁 **Dataset & Output (Google Drive)**:  
+- 📁 **Dataset & output (Google Drive)**:  
   https://drive.google.com/drive/folders/1zIb7QLEWGsypM1agrUuKQS5oO_yBqJuy?usp=sharing  
-- 📽️ **Video YouTube Sumber**:  
+- 📽️ **Sumber Video YouTube**:  
   https://youtu.be/5DbCvqfg-9I?si=cLabiu4VVIFclz_2  
 
 ---
 
-## ⚙️ 3. Langkah Utama Analisis  
+## ⚙️ _3. Methodology_ 
 1. **_Data Collection (Scraping)_**  
    - YouTube Data API v3 → `komentar_prabowo.csv` (3.597 baris × 4 kolom)  
 2. **_Data Cleaning & Emoji Removal_**  
@@ -80,11 +80,11 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ## 📝 _6. Conclusions_
 - **Akurasi & Skala Analisis**  
-  Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama dengan tingkat konsistensi di atas 95 % pada uji validasi sampel. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia dengan akurasi yang memadai.
+  Dengan GPT-3.5-turbo, proyek ini berhasil mengklasifikasikan 3.401 komentar ke dalam sentimen (positif 56,4 %, negatif 26,9 %, netral 16,6 %) dan enam topik utama. Ini menunjukkan LLM dapat menangani volume data besar dalam bahasa Indonesia.
 - **Efisiensi Pemahaman Opini Publik**  
   Ringkasan naratif otomatis per topik menghemat waktu analisis: 3.401 komentar tersaring menjadi 6 laporan ringkas (masing-masing 1.000–3.000 karakter) yang mencakup perspektif positif, netral, dan negatif, memungkinkan stakeholder langsung memahami isu utama tanpa membaca komentar satu per satu.
 - **Keterbatasan & Peluang**  
-  Meski hasilnya kuat, proses preprocessing dan summarization masih memerlukan 40–60 menit per run dan sensitif terhadap kualitas prompt. Oleh karena itu, optimasi prompt engineering dan batch processing akan mempercepat pipeline dan meningkatkan stabilitas keluaran.
+  Meski hasilnya kuat, proses preprocessing dan summarization masih memerlukan 40–60 menit setiap running sel dan sensitif terhadap kualitas prompt. Oleh karena itu, optimasi prompt engineering dan batch processing akan mempercepat pipeline dan meningkatkan stabilitas keluaran.
 
 ---
 
