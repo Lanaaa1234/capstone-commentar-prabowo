@@ -51,7 +51,6 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 - **Sekilas relasi Topik–Sentimen**:
   - topik komentar terkait ucapan selamat dan dukungan memiliki mayoritas sentimen positif yakni sejumlah 1.346 dari 1.429 komentar
   - topik komentar terkait kritik atau sindiran politik memiliki mayoritas sentimen negatif sejumlah 758 dari 974 komentar 
-  - Dukungan (A) dominan positif  
 - **Word Cloud**: dominasi kata “prabowo”, “semoga”, “selamat”, “indonesia”
 
 ---
