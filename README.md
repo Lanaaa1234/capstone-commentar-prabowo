@@ -24,13 +24,13 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 
 ## ⚙️ 3. Langkah Utama Analisis  
 1. **_Data Collection (Scraping)_**  
-   - YouTube Data API v3 → `komentar_prabowo.csv` (3.596 baris × 4 kolom)  
+   - YouTube Data API v3 → `komentar_prabowo.csv` (3.597 baris × 4 kolom)  
 2. **_Data Cleaning & Emoji Removal_**  
-   - Regex & Python → `komentar_prabowo_unemot.csv` (3.486×4)  
+   - Regex & Python → `komentar_prabowo_unemot.csv` (3.487 baris × 4 kolom)  
 3. **Preprocessing Teks dengan LLM**  
-   - GPT-3.5-turbo: normalisasi kata, perbaikan ejaan → `komentar_preprocess_gpt35.csv` (3.486×5)  
+   - GPT-3.5-turbo: normalisasi kata, perbaikan ejaan → `komentar_preprocess_gpt35.csv` (3.487 baris × 5 kolom)  
 4. **_Sentiment Analysis (LLM)_**  
-   - Klasifikasi positif/netral/negatif → `komentar_sentimen_gpt35.csv` (3.401×3)  
+   - Klasifikasi positif/netral/negatif → `komentar_sentimen_gpt35.csv` (3.402 baris × 3 kolom)  
 5. **_Topic Classification (LLM)_**  
    - 6 kategori topik yang dikodekan A–F → `komentar_topik_OKGPT35.csv`  
 6. **Visualisasi**  
