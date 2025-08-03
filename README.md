@@ -3,6 +3,7 @@
 ### Dengan NLP Berbasis LLM (GPT-3.5-turbo)
 
 **NOTED:** Pada Capstone Project kali ini saya sebelumnya sudah menggunakan model LLM **IBM Granite** namun output terkait Classification dan Summarization hasil IBM Granit kurang maksimal, masih ditemukan banyak makna lain dari komentar aslinya. Sehingga saya menggunakan model **openAI (GPT-3.5-turbo)**, ketika kelas Data Classification & Summarization dari mentor memperbolehkan hal tersebut.
+
 ---
 
 ### 👤 _Author & Contact_  
