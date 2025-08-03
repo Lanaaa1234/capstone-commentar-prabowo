@@ -2,6 +2,7 @@
 ## _AI-Driven Analysis_ Komentar YouTube Pidato Pertama Prabowo Subianto Pasca Menang Pilpres Indonesia Tahun 2024
 ### Dengan NLP Berbasis LLM (GPT-3.5-turbo)
 
+**NOTED:** Pada Capstone Project kali ini saya sebelumnya sudah menggunakan model LLM **IBM Granite** namun output terkait Classification dan Summarization hasil IBM Granit kurang maksimal, masih ditemukan banyak makna lain dari komentar aslinya. Sehingga saya menggunakan model **openAI (GPT-3.5-turbo)**, ketika kelas Data Classification & Summarization dari mentor memperbolehkan hal tersebut.
 ---
 
 ### 👤 _Author & Contact_  
@@ -25,7 +26,6 @@ Setelah KPU menetapkan Prabowo Subianto sebagai Presiden RI 2024–2029, pidato 
 - Menyusun **ringkasan naratif** per topik pembahasan.
 - Mendemonstrasikan peran **AI (GPT-3.5-turbo)** dalam menangani data teks bahasa Indonesia berskala besar secara efisien. 
 
-**NOTED:** Pada Capstone Project kali ini saya sebelumnya sudah menggunakan model LLM **IBM Granite** namun output terkait Classification dan Summarization hasil IBM Granit kurang maksimal, masih ditemukan banyak makna lain dari komentar aslinya. Sehingga saya menggunakan model **openAI (GPT-3.5-turbo)**, ketika kelas Data Classification & Summarization dari mentor memperbolehkan hal tersebut.
 
 ---
 
